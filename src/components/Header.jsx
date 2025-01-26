@@ -55,7 +55,7 @@ export function Header() {
                 <div className="flex justify-around items-center py-4">
                     <div className="flex items-center gap-4">
                         <img
-                            src="public/images/me.jpg"
+                            src="images/me.jpg"
                             className="w-12 h-12 rounded-full"
                         />
                         <span className="font-bold text-gray-800 tracking-wider hover-text">
