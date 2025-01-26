@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+* {
+  font-family: 'Source Code Pro', monospace;
+  }
+
+.description{
+  color: #555;
+  font-weight: 500;
+}
+
+.header-menu{
+  color: #333;
+}
+
+.hover-text:hover {
+  color: #7843E9; /* sky-700 rengi */
+}
+
+.oswald-heading {
+  font-family: 'Oswald', sans-serif;
+}
+
+.text-space {
+  letter-spacing: 1px;
+}
+.button-color{
+  background-color: #7843E9;
+  color: #fff;
+}
+
+.skill-color{
+  background-color: rgba(153, 153, 153, 0.2);
+  color: #666;
+  
+}
+
+.descripton-color{
+  color: #555;
+}
+
+.about{
+background: #fafafa;
+}
+
