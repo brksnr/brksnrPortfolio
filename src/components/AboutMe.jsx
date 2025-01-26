@@ -25,10 +25,12 @@ export function AboutMe(){
                     <div className="flex gap-30 flex-col xl:flex-row mx-5 md:mx-70">
                             <div className="flex flex-col gap-10 min-w-100 "> 
                                 <h3 className="font-bold text-4xl">Get to know me!</h3>
+
+                                
                                 <div className="flex flex-col gap-10 justify-center max-w-150">
-                                    <p className="descripton-color font-xl">I'm a Frontend Focused Web Developer building and managing the Front-end of Websites and Web Applications that leads to the success of the overall product. Check out some of my work  in the Projects section.</p>
-                                    <p className="descripton-color font-xl">I also like sharing content related to the stuff that I have  learned over the years in Web Development so it can help other people of the Dev Community. Feel free to Connect or Follow me on my Linkedin and Instagram  where I post useful content related to Web Development and Programming</p>
-                                    <p className="descripton-color font-xl">I'm open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to contact me.</p>
+                                    <p className="descripton-color font-xl">I’m a Full Stack Web Developer with a passion for creating and maintaining the front-end of websites and web applications. I focus on delivering intuitive and user-friendly experiences that contribute to the overall success of the product. Feel free to check out some of my projects!</p>
+                                    <p className="descripton-color font-xl">I enjoy sharing what I’ve learned in web development, hoping it helps others in the developer community. You can connect with me on LinkedIn or Mail, where I share insights and content related to web development and programming.</p>
+                                    <p className="descripton-color font-xl">I’m always open to job opportunities where I can contribute, learn, and grow. If you think my skills and experience would be a good match for your team, don’t hesitate to reach out!</p>
                                 </div>
                                 <button onClick={handleScroll} className="rounded-md w-52 h-12 button-color transition transform hover:-translate-y-2 duration-300">
                                 <a href="#form" className="font-bold">CONTACT</a>
