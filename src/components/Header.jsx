@@ -62,59 +62,45 @@ export function Header() {
                             BERK SENER
                         </span>
                     </div>
-                    <div className="md:hidden" onClick={toggleMenu}>
+                <div className="sdadsa flex flex-col items-end">
+                <div className="md:hidden" onClick={toggleMenu}>
                         <i className="fa-solid fa-bars"></i>
                     </div>
-
+                
                     <div className={`hidden md:flex ${isMenuOpen ? 'block' : 'hidden'}`}>
                         <ul className="flex space-x-4 text-space gap-10">
                             <li>
-                                <a onClick={handleHome} href="#home" className="hover-text font-bold header-menu">
-                                    HOME
-                                </a>
+                                <a onClick={handleHome} href="#home" className="hover-text font-bold header-menu">HOME</a>
                             </li>
                             <li>
-                                <a onClick={handleAbout} href="#about" className="hover-text font-bold header-menu">
-                                    ABOUT
-                                </a>
+                                <a onClick={handleAbout} href="#about" className="hover-text font-bold header-menu">ABOUT</a>
                             </li>
                             <li>
-                                <a onClick={handleProject} href="#projects" className="hover-text font-bold header-menu">
-                                    PROJECTS
-                                </a>
+                                <a onClick={handleProject} href="#projects" className="hover-text font-bold header-menu">PROJECTS</a>
                             </li>
                             <li>
-                                <a onClick={handleContact} href="#form" className="hover-text font-bold header-menu">
-                                    CONTACT
-                                </a>
+                                <a onClick={handleContact} href="#form" className="hover-text font-bold header-menu">CONTACT</a>
                             </li>
                         </ul>
                     </div>
-                    <div className={`md:hidden ${isMenuOpen ? 'block' : 'hidden'}`}>
-            <ul className="flex flex-col space-y-4 text-space gap-10">
+                    </div>
+                </div>
+                <div className={`md:hidden ${isMenuOpen ? 'block' : 'hidden'} `}>
+            <ul className="flex flex-col space-y-4 text-space gap-10 items-end mr-5 mb-5 ">
               <li>
-                <a onClick={handleHome} href="#home" className="hover-text font-bold header-menu">
-                  HOME
-                </a>
+                <a onClick={handleHome} href="#home" className="hover-text font-bold header-menu">HOME</a>
               </li>
               <li>
-                <a onClick={handleAbout} href="#about" className="hover-text font-bold header-menu">
-                  ABOUT
-                </a>
+                <a onClick={handleAbout} href="#about" className="hover-text font-bold header-menu">ABOUT</a>
               </li>
               <li>
-                <a onClick={handleProject} href="#projects" className="hover-text font-bold header-menu">
-                  PROJECTS
-                </a>
+                <a onClick={handleProject} href="#projects" className="hover-text font-bold header-menu">PROJECTS</a>
               </li>
               <li>
-                <a onClick={handleContact} href="#form" className="hover-text font-bold header-menu">
-                  CONTACT
-                </a>
+                <a onClick={handleContact} href="#form" className="hover-text font-bold header-menu">CONTACT</a>
               </li>
             </ul>
           </div>
-                </div>
             </div>
         </>
     );
