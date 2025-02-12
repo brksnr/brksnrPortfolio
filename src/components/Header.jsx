@@ -51,7 +51,7 @@ export function Header() {
       };
     return (
         <>
-            <div className="fixed top-0 left-0 w-full bg-white shadow-md z-50 border">
+            <div className="fixed top-0 left-0 w-full bg-white shadow-md z-50">
                 <div className="flex justify-around items-center py-4">
                     <div className="flex items-center gap-4">
                         <img
@@ -87,7 +87,7 @@ export function Header() {
                     </div>
                     </div>
                 </div>
-                <div className={`md:hidden ${isMenuOpen ? 'block' : 'hidden'}`}>
+                <div className={`md:hidden ${isMenuOpen ? 'block' : 'hidden'} `}>
             <ul className="flex flex-col space-y-4 text-space gap-10 items-end mr-5 mb-5 ">
               <li>
                 <a onClick={handleHome} href="#home" className="hover-text font-bold header-menu">HOME</a>

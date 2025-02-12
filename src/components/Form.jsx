@@ -20,7 +20,7 @@ export function Form() {
         </div>
       </div>
 
-      <form onSubmit={handleSubmit} className="w-110 md:w-200 xl:w-220 bg-white shadow-lg rounded-lg p-10 flex flex-col gap-6">
+      <form onSubmit={handleSubmit} className="w-full md:w-200 xl:w-220 bg-white shadow-lg rounded-lg p-10 flex flex-col gap-6 border">
         <div className="mb-6">
           <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="name">Name</label>
           <input
