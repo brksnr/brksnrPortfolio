@@ -6,7 +6,8 @@ import { Projects } from './components/Projects'
 import { Form } from './components/Form'
 import { Footer } from './components/Footer'
 import { SideBar } from './components/SideBar'
-import { Header } from './components/Header'
+import { Header } from './components/header'
+
 
 
 function App() {

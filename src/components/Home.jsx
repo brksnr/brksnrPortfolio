@@ -13,7 +13,7 @@ export function Home() {
         <>
         <div id="home" className="bg-[url(/images/arkaplan.png)] h-screen">
                 <div className="flex flex-col items-center justify-center h-full text-black gap-10 mx-5">
-                    <h1 className="text-3xl font-extrabold tracking-widest sm:text-4xl md:text-5xl xl:text-6xl">HEY, I'M BERK SENER</h1>
+                    <h1 className="text-3xl font-extrabold sm:tracking-widest sm:text-4xl md:text-5xl xl:text-6xl">HEY, I'M BERK SENER</h1>
                     <div>
                         <p className="text-center header-menu font-semibold leading-loose">
                         A passionate Full Stack Developer focusing on creating impactful web applications and solutions across both front-end and back-end.

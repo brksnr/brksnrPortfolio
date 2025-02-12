@@ -58,9 +58,11 @@ export function Header() {
                             src="images/me.jpg"
                             className="w-12 h-12 rounded-full"
                         />
-                        <span className="font-bold text-gray-800 tracking-wider hover-text">
+                        <button 
+                        onClick={handleContact} href="#form" 
+                        className="hover-text font-bold header-menu">
                             BERK SENER
-                        </span>
+                        </button>
                     </div>
                 <div className="sdadsa flex flex-col items-end">
                 <div className="md:hidden" onClick={toggleMenu}>
