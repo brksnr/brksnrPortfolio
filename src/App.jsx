@@ -14,6 +14,7 @@ function App() {
 
   return (
     <>
+      <div className='w-screen'>
       <SideBar/>
       <Header/>
       <Home/>
@@ -21,6 +22,7 @@ function App() {
       <Projects/>
       <Form/>
       <Footer/>
+      </div>
     </>
   )
 }
